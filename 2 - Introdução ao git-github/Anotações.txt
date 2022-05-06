@@ -1,0 +1,15 @@
+.cd = se locovomer entre pastas
+
+.ls = listas arquivos
+
+.pwd = mostra o caminho completo
+
+.Criar chave
+- ssh-keygen -t ed255119
+- cd /c/Users/desktopname/.ssh
+- cat id_ed25519.pub
+- copiar chave e colar no github
+- eval $(ssh-agent -s)
+- ssh-add id_ed25519
+
+.
