@@ -12,4 +12,23 @@
 - eval $(ssh-agent -s)
 - ssh-add id_ed25519
 
-.
+.git clone = clonar no pc um repositório
+
+.git config --global user.email "seu email" = configurar um email para ser usado
+
+.git config --globar user.name "seu nome" = configurar um nome para ser usado
+
+.-- unset = pode ser usado após git config --global para retirar configurações especificadas anteriormente
+
+.Enviar informações para um repositório no github pelo git
+-git status
+-git add -A
+-git commit -m "anotação do que está enviando para o repositório"
+-git push origin main
+
+.Iniciar um repertório local
+-git init
+
+.Adicionar arquivos a um repositório local já existente a um repertório no github
+-git remote add origin link-do-repositorio
+-git remove -v
