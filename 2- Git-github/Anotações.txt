@@ -2,6 +2,8 @@
 
 .ls = listas arquivos
 
+.ls -a = listas arquivos "escondidos"
+
 .pwd = mostra o caminho completo
 
 .Criar chave
@@ -26,9 +28,11 @@
 -git commit -m "anotação do que está enviando para o repositório"
 -git push origin main
 
-.Iniciar um repertório local
+.Iniciar um repositório local
 -git init
 
-.Adicionar arquivos a um repositório local já existente a um repertório no github
+.Adicionar arquivos a um repositório local já existente a um repositório no github
 -git remote add origin link-do-repositorio
 -git remove -v
+
+.git pull origin master/main = puxar ariquivos do repositório
