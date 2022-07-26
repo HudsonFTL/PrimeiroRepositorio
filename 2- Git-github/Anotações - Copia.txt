@@ -1,0 +1,38 @@
+.cd = se locovomer entre pastas
+
+.ls = listas arquivos
+
+.ls -a = listas arquivos "escondidos"
+
+.pwd = mostra o caminho completo
+
+.Criar chave
+- ssh-keygen -t ed255119
+- cd /c/Users/desktopname/.ssh
+- cat id_ed25519.pub
+- copiar chave e colar no github
+- eval $(ssh-agent -s)
+- ssh-add id_ed25519
+
+.git clone = clonar no pc um repositório
+
+.git config --global user.email "seu email" = configurar um email para ser usado
+
+.git config --globar user.name "seu nome" = configurar um nome para ser usado
+
+.-- unset = pode ser usado após git config --global para retirar configurações especificadas anteriormente
+
+.Enviar informações para um repositório no github pelo git
+-git status
+-git add -A
+-git commit -m "anotação do que está enviando para o repositório"
+-git push origin main
+
+.Iniciar um repositório local
+-git init
+
+.Adicionar arquivos a um repositório local já existente a um repositório no github
+-git remote add origin link-do-repositorio
+-git remove -v
+
+.git pull origin master/main = puxar ariquivos do repositório
